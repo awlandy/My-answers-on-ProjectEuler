@@ -4,7 +4,7 @@
 #include <vector>
 #include <list>
 #include <stdio.h>
-#include "Header.h"
+#include "Factorset.h"
 
 std::list<long long> Factorset::primeFactors;
 std::list<long long> Factorset::nonprimeFactors;
