@@ -12,7 +12,7 @@ std::list<long long> Factorset::factors;
 
 int main() {
 	const long long subject = 600851475143;
-	Factorset setone(600851475143);
+	Factorset setone(subject);
 	setone.printPrimelist();
 	return true;
 }
